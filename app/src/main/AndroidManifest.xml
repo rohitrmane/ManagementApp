@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rohit.management">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="Home">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".ViewAllActivity"
+            android:label="@string/title_activity_view_all" />
+        <activity
+            android:name=".NewOrderActivity"
+            android:label="@string/title_activity_new_order"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".DetailsActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".AddPerson" />
+        <activity android:name=".ViewSummary" />
+        <activity
+            android:name=".SaveActivity"
+            android:label="Details"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".LoginActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+
+        </activity>
+    </application>
+
+</manifest>

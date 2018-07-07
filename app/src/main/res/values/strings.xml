@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Management</string>
+    <string name="title_home">Home</string>
+    <string name="title_new_order">New Order</string>
+    <string name="title_view_all">View All</string>
+    <string name="title_view_summary">View Summary</string>
+    <string name="title_add_person">add person</string>
+
+    <string name="title_activity_view_all">View All Orders</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_new_order">New Order</string>
+</resources>
